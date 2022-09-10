@@ -1,5 +1,6 @@
 # Telnyx-Flooder
 Uses the telnyx api to flood numbers. Good for taking down scam call centers temporarily. Please don't use it on anyone innocent, this is for educational purposes.
+Inspired by https://github.com/Jfaler/soup
 
 # Setup
 - Make sure to have python 3 installed
