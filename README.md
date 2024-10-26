@@ -2,6 +2,7 @@
 # NOT MAINTAINED ANYMORE
 Uses the Telnyx API to flood numbers. Good for taking down scam call centers temporarily. Please don't use it on anyone innocent. I mean... if they ask to get flooded and they know what would happen, then go ahead. THIS IS FOR EDUCATIONAL PURPOSES.
 Inspired by https://github.com/Jfaler/soup
+Will suck up all the money in your telnyx account eventually due to the nature of call flooding
 
 # Setup
 - Make sure to have python 3 installed
